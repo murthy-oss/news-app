@@ -169,7 +169,7 @@ WebViewController controller = WebViewController()
   ..setNavigationDelegate(
     NavigationDelegate(
       onProgress: (int progress) {
-        // Update loading bar.
+      
       },
       onPageStarted: (String url) {},
       onPageFinished: (String url) {},
